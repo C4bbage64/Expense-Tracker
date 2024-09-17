@@ -1,0 +1,8 @@
+# Initialize the repository
+
+# Add and commit your changes
+git add .
+git commit -m "Initial commit for expense tracker"
+
+# Push to GitHub
+git push origin master
