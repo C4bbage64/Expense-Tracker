@@ -6,3 +6,7 @@ git commit -m "Initial commit for expense tracker"
 
 # Push to GitHub
 git push origin master
+
+# Ignore __pycache__ and .venv folders
+__pycache__/
+.venv/
