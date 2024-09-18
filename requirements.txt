@@ -5,8 +5,8 @@ Application should run from the command line and should have the following featu
 - Users can add an expense with a description and amount.  (Completed)
 - Users can update an expense.  (Completed)
 - Users can delete an expense.  (In Progress)
-- Users can view all expenses.  (Ready)
-- Users can view a summary of all expenses.  (Ready)
+- Users can view all expenses.  (Completed)
+- Users can view a summary of all expenses.  (In Progress)
 - Users can view a summary of expenses for a specific month (of current year).  (Ready)
 
 ## Additional Requirements
