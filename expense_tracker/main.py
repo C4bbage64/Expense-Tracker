@@ -38,7 +38,7 @@ def main():
         update_expense(args.id, args.description, args.amount, args.category)
     elif args.command == "delete":
         delete_expense(args.id)
-    elif args.command = "list":
+    elif args.command == "list":
         list_expenses()
     elif args.command == "summary":
         summary_expenses(args.month)
