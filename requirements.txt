@@ -1,18 +1,2 @@
-## Requirements
-
-Application should run from the command line and should have the following features:
-
-- Users can add an expense with a description and amount.  (Completed)
-- Users can update an expense.  (Completed)
-- Users can delete an expense.  (In Progress)
-- Users can view all expenses.  (Completed)
-- Users can view a summary of all expenses.  (In Progress)
-- Users can view a summary of expenses for a specific month (of current year).  (Ready)
-
-## Additional Requirements
-
-Here are some additional features that you can add to the application:
-
-- Add expense categories and allow users to filter expenses by category.  (Ready)
-- Allow users to set a budget for each month and show a warning when the user exceeds the budget.  (Ready)
-- Allow users to export expenses to a CSV file.  (Ready)
+click==8.1.3  # for command-line interface handling
+pytest==7.4.0  # if you want to include testing

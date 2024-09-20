@@ -12,9 +12,9 @@ def load_expenses():
         return list(reader)
     
 def save_expenses(expenses):
-    with open(CSV_FILE, "w", newline="") as file:
+    with open(CSV_FILE, mode="w", newline="") as file:
         fieldnames = ["ID", "Date", "Description", "Amount", "Category"]
-        writer = csv.DictWriter(file, fieldnames=expenses[0].keys())
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(expenses)
 

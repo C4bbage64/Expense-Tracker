@@ -34,19 +34,19 @@ def update_expense(expense_id, description=None, amount=None, category=None):
             return
     print(f"Expense ID {expense_id} not found")
 
-    def delete_expense(expense_id):
+def delete_expense(expense_id):
         expenses = load_expenses()
         filtered_expenses = [exp for exp in expenses if int(exp["ID"]) != expense_id]
         save_expenses(filtered_expenses)
         print(f"Deleted expense ID {expense_id}")
 
-    def list_expenses():
+def list_expenses():
         expenses = load_expenses()
         print("ID Date Description Amount Category")
         for expenses in expenses:
             print(f"{expenses['ID']} {expenses['Date']} {expenses['Description']} {expenses['Amount']} {expenses['Category']}")
 
-    def summary_expenses(month=None):
+def summary_expenses(month=None):
         expenses = load_expenses()
         total = 0
         filtered_expenses = expenses
